@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
+    margin-top: -15px;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span{
+    margin-right: 30px;
+}
+
+.sectionOne {
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#missionImg {
+    width:1200px;
+    height: 700px;
+    margin: auto;
+    background-image: url("img-mission-background.jpg")
+}
+
+#mission {
+    margin: auto;
+    background-color: black;
+    width:100%;
+    margin-top: 300px;
+    text-align: center;
+}
+
+#shopSection {
+    padding-top: 69px;
+}
+
+#shopText {
+    text-align: center;
+}
+
+.shopFlexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopFlexContainer img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.shopTotalContainer {
+    display: flex;
+    margin:auto;
+    justify-content: space-around;
+    width: 1000px;
+    height: 700px;
+    flex-wrap: wrap;
+}
+
+.sectionLocations {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("img-locations-background.jpg")
+}
+
+.Locations{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color:black;
+}
+
+.Locationscollection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#headerLocations {
+    text-align: center;
+    margin:auto;
+    color:black;
+    margin-bottom: 15px;
+}
+
+#contactInformation {
+    height:200px;
+    width:1200px;
+    position: flex;
+    background-color: black;
+    text-align:center;
+    margin-top: 170px;
+}
